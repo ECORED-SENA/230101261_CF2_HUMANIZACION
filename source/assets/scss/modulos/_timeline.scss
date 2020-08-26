@@ -13,10 +13,21 @@ $tl-margin: 5rem;
 }
 
 .timeline {
-  position: relative;
+  position: relative;   
+  padding: 1rem 0;  
+  &::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: calc(#{$tl-margin} - 35px);
+    transform: translateY(-50%);         
+    height: 100%;
+    border-right: 1px solid $timelineColor;      
+  }
   &__item {    
     position: relative;
-    padding: 2rem 0 0 0;    
+    padding: 1rem 0;           
     &::before {
       content: "";
       width: 10px;
@@ -29,17 +40,7 @@ $tl-margin: 5rem;
       border-radius: 10px;
       box-shadow: 0px 0px 2px 8px rgba(22, 110, 181, 0.15);
       z-index: 2;
-    }    
-    &::after {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      top: 50%;
-      left: calc(#{$tl-margin} - 35px);
-      transform: translateY(-50%);         
-      height: 100%;
-      border-right: 1px solid $timelineColor;      
-    }
+    }        
     &__date {   
       position: absolute;
       top: 50%;

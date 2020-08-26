@@ -6,7 +6,7 @@
         <path id="Trazado_10462" data-name="Trazado 10462" d="M19.589-112.043l-7.747,54.4a6.789,6.789,0,0,0,10.116,6.835l97.535-56.311a6.725,6.725,0,0,0,3.395-5.88H19.657A6.672,6.672,0,0,1,19.589-112.043Z" transform="translate(-11.321 176.116)" fill="#008fff"/>
         <path id="Trazado_10463" data-name="Trazado 10463" d="M29.133-110.021a8.832,8.832,0,0,1-8.832,8.833,8.833,8.833,0,0,1-8.833-8.833,8.833,8.833,0,0,1,8.833-8.833A8.832,8.832,0,0,1,29.133-110.021Z" transform="translate(-11.468 173.27)" fill="#feb64f"/>
       </g>
-      <text id="_11" data-name="11" transform="translate(36.42 -81.969)" fill="#fff" font-size="32" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">11</tspan></text>
+      <path id="Trazado_12642" data-name="Trazado 12642" d="M8.938-22.578h4.281V0H8.734V-17.953L3.547-13.125V-17.75Zm19.109,0h4.281V0H27.844V-17.953l-5.187,4.828V-17.75Z" transform="translate(36.42 -81.969)" fill="#fff"/>
     </g>
   </g>
 </svg>
