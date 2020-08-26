@@ -16,7 +16,7 @@ $tl-margin: 5rem;
   position: relative;
   &__item {    
     position: relative;
-    padding: 2rem 0;    
+    padding: 2rem 0 0 0;    
     &::before {
       content: "";
       width: 10px;
