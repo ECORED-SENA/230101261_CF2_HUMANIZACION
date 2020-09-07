@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "humanizacion",
+    "title": "1. Humanización en salud",
+    "breadcrumb": ["humanizacion","tema-1"],
+    "path": "pages/tema_1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "humanizacion",
+        "title": "1.1 Conceptualización",
+        "anchor": "tema1_1"
+      }      
+    ]
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "relacion_vinculo",
+    "title": "2. Relación, vínculo y comunicación",
+    "breadcrumb": ["Inicio","tema-2"],
+    "path": "pages/tema_2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "relacion_vinculo",
+        "title": "2.1 Manejo de emociones",
+        "anchor": "tema2_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "relacion_vinculo",
+        "title": "2.2 Comunicación asertiva",
+        "anchor": "tema2_2"
+      }
+    ]  
+  }   
+]
