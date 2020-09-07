@@ -25,7 +25,7 @@
     "id": 2,
     "icon": "fa fa-file-text",
     "slug": "relacion_vinculo",
-    "title": "2. Relación, Vínculo y comunicación",
+    "title": "2. Relación, vínculo y comunicación",
     "breadcrumb": ["Inicio","tema-2"],
     "path": "pages/tema_2.html",
     "submenu": [
